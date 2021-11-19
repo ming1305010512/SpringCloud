@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ming1305010512/spring-cloud-config.git
+          username: ming1305010512
+          password: long2190019ming
+server:
+  port: 12580
